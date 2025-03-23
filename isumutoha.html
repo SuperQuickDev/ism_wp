@@ -36,6 +36,16 @@
         img:is([sizes="auto" i], [sizes^="auto," i]) {
             contain-intrinsic-size: 3000px 1500px
         }
+
+        p {
+            font-size: 1.2rem;
+        }
+        
+        @media screen  and (max-width: 768px) {
+            p {
+                font-size: 1rem;
+            }
+        }
     </style>
     <!-- =======================================================
   * Template Name: QuickStart
@@ -58,7 +68,7 @@
             <nav id="navmenu" class="navmenu">
                 <ul>
                     <!-- <li><a href="index.html#hero" class="active">TOP</a></li> -->
-                    <li><a href="index.html#about">Wty ISM</a></li>
+                    <li><a href="index.html#about">Why ISM</a></li>
                     <li><a href="index.html#features">イズムとは？</a></li>
                     <li><a href="index.html#pricing">プログラム内容</a></li>
                     <li><a href="index.html#pricing">その他サービス</a></li>
@@ -72,170 +82,351 @@
     </header>
 
     <main class="main">
+        <!-- <blank> -->
+        <section style="height: 50px;">
+        </section>
+        <!-- </blank> -->
 
-        <!-- Hero Section -->
-        <section id="hero" class="hero section">
-            <div class="hero-bg">
-                <img src="assets/img/_logo.png" alt="">
-            </div>
-        </section><!-- /Hero Section -->
-
-        <!-- About Section -->
-        <section id="about" class="about section">
-
-            <div class="container">
-                <div class="row gy-4">
-                    <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-                        <img src="assets/img/whyism.jpg" class="img-fluid img-opacity-2" alt="">
+        <!-- イズムとは？ -->
+        <section id="concept" class="p-0">
+            <div class="container py-4" style="background-color: #0e2841;">
+                <div class="row align-items-center py-4">
+                    <div class="col-md-6 text-center text-md-end">
+                        <img src="assets/img/_logo.png" class="img-fluid" alt="Logo Image">
                     </div>
-                    <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100" style="padding: 20px;">
-
-                        <div class="container section-title" data-aos="fade-up">
-                            <h2>Why ISM？</h2>
-                        </div><!-- End Section Title -->
-                        <div class="container section-title" data-aos="fade-up">
-                            <p style="font-size: 1.2rem; text-align: left;">
-                                自社の組織を強くしたい、人を育てたい<br>
-                                という想いはあるが何をやっても<br>
-                                成果が出ないと悩んでませんか？<br>
-                                組織や人材育成に強みを持つトップ企業では必ず、<br>
-                                日常的に、当たり前に飛び交う言葉が存在します。<br>
-                                それこそが「イズム」であり、<br>
-                                その有無が決定的な差を生むのです。<br>
-
-                            </p>
-                        </div>
-                        <div class="container" style="text-align: center; margin-top: 40px;">
-                            <a href="#" class="read-more" style="background-color: #0e2841;"><i
-                                    class="bi bi-caret-right-fill"></i><span>&nbsp;詳しく知る</span></a>
-                        </div>
-
+                    <div class="col-md-6 text-center text-md-start">
+                        <h1 class="text-white">イズムとは？</h1>
                     </div>
                 </div>
             </div>
-        </section><!-- /About Section -->
-        <section id="about" class="about section">
 
             <div class="container">
-                <div class="row gy-4">
-                    <div class="col-lg-5 content" data-aos="fade-up" data-aos-delay="100" style="padding: 20px;">
-
-                        <div class="container section-title" data-aos="fade-up">
-                            <h2>ISMとは ？</h2>
-                        </div><!-- End Section Title -->
-                        <div class="container section-title" data-aos="fade-up">
-                            <p style="font-size: 1.2rem; text-align: left;">
-                                全ては、リーダーの情熱的な想いから始まります。<br>
-                                自身の原体験に基づき、本気で共に働く仲間に<br>
-                                “信仰”してほしい何か。<br>
-                                それを言語化した言葉が「イズム」であり、<br>
-                                日常的な働き方から、意思決定の基準、人の育て方まで<br>
-                                その組織を形作る全ての基礎となるのです。<br>
-                            </p>
-                        </div>
-                        <div class="container" style="text-align: center; margin-top: 40px;">
-                            <a href="#" class="read-more" style="background-color: #0e2841;"><i
-                                    class="bi bi-caret-right-fill"></i><span>&nbsp;詳しく知る</span>
-                            </a>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-                        <img src="assets/img/ism.png" class="img-fluid img-opacity-2" alt="">
-                    </div>
-
-                </div>
-            </div>
-        </section><!-- /About Section -->
-
-        <!-- Features Section -->
-        <section id="features" class="about section">
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>ISM Projectのプログラム</h2>
-            </div><!-- End Section Title -->
-
-            <div class="container">
-
-                <div class="row justify-content-between">
-                    <div class="row justify-content-center">
-                        <p style=" max-width: 1025px; font-size: 1.2rem;">
-                            ISM Projectは、1年〜数年の期間を見据えて、焦らずじっくりと、自然にイズムを浸透させていく取り組みです。<br>
-                            多くの企業が、成果を急ぎ過ぎてこのような努力を無駄にしてしまいます<br>
-                            リーダーとの徹底的な向き合いから始まり、コアメンバーを巻き込み、言葉にこだわった浸透活動を実践していく。<br>
-                            当社では４つのフェーズに沿って適切なサポートを提供します。<br><br>
+                <div class="row align-items-center py-4">
+                    <div class="py-4 mx-auto text-start col-lg-8">
+                        <p>
+                            ”ism”とは、”信仰・主義・思想”と定義されます。<br/>
+                            企業イズムとは、その組織にとっての最上位概念となるべきものです。<br/>
+                            企業活動において、難しい選択や判断に迫られた時、AかBか迷った時、<br/>
+                            最も重要な判断基準となるものです。<br/>
+                            それは、日々繰り返し発せられる言葉のコミュニケーションによって浸透します。<br/>
+                            強い企業は、間違いなく”宗教的”で、独特の社内用語が存在するのです。<br/>
+                            <br/><br/>
+                            また、イズムは必ず<span style="font-weight: 800;">誰かの、強烈な情熱から始まります。</span><br/>
+                            極めてパーソナルな原体験に基づき、嘘偽りなく、純粋に、<br/>
+                            本気で共に働く仲間に「信仰」してほしい何かが起源となるのです。<br/>
+                            よく社内で共有すべき価値観やValuesを「みんなで考えよう」と<br/>
+                            作り上げることはありますが、これだと多くの場合ありきたりになり失敗します。<br/>
+                            <br/><br/>
+                            そしてリーダーの極めて個人的な想いから確立したイズムは、<br/>
+                            いずれその当該人物よりも“重要な”価値基準とならなければなりません。<br/>
+                            そうでなければただの「ワンマン経営」で真のイズムとなりえません。<br/>
+                            確立したイズムは、そのリーダーがいなくなっても長年にわたり<br/>
+                            企業に根付く文化＝主義・思想となるのです。<br/>
                         </p>
                     </div>
+                </div>
+            </div>
 
-                    <div class="container section-title" style="text-align: center; margin-top: 20px;">
-                        <a href="#" class="read-more " style="background-color: #0e2841;"><i
-                                class="bi bi-caret-right-fill"></i><span>&nbsp;詳しく知る</span>
-                        </a>
-                    </div>
-                    <div style="display: contents; text-align: center; margin-top: 20px; gap: 2px;">
-                        <img src="assets/img/ban.png" class="img-fluid " alt="">
+            <div class="container mb-4">
+                <div class="row align-items-center">
+                    <div class="col-md-1 col-sm-2 mx-auto" style="border: 1px solid lightgray;">
+
                     </div>
                 </div>
             </div>
-        </section><!-- /Features Section -->
+        </section>
+        <!-- /イズムとは？ -->
 
-        <section id="about" class="about section">
-
+        <!-- 企業イズムの体系 -->
+        <section id="venture" class="p-0">
             <div class="container">
-                <div class="row gy-4">
-                    <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-                        <img src="assets/img/other.png" class="img-fluid img-opacity-2" alt="">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-sm-12 py-3" style="background-color: #0e2841;">
+                        <h5 class="text-white text-center">企業イズムの体系</h5>
                     </div>
-                    <div class="col-lg-5 content" data-aos="fade-up" data-aos-delay="100" style="padding: 20px;">
+                </div>
+            </div>
 
-                        <div class="container section-title" data-aos="fade-up">
-                            <h2>その他サービス</h2>
-                        </div><!-- End Section Title -->
-                        <div class="container section-title" data-aos="fade-up">
-                            <p style="font-size: 1.2rem; text-align: left;">
-                                企業様の幹部・幹部候補生向けに、<br>
-                                戦略コンサルティングファームの仕事術をベースにした<br>
-                                実践的人材育成プログラムや、<br>
-                                企業イズム・組織強化・人材育成に関するセミナーの<br>
-                                依頼も承っています<br>
-                            </p>
-                        </div>
-                        <div class="container" style="text-align: center; margin-top: 40px;">
-                            <a href="#" class="read-more" style="background-color: #0e2841;"><i
-                                    class="bi bi-caret-right-fill"></i><span>&nbsp;詳しく知る</span></a>
-                        </div>
+            <div class="container py-4">
+                <div class="row align-items-center">
+                    <div class="col-lg-9 mx-auto">
+                        <img src="assets/img/ism_system.png" class="img-fluid" alt="ISM System Image">
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mx-auto py-4">
+                        <p>
+                            最上位のイズムを表す言葉と共に、強いイズムを確立している組織は<br/>
+                            ①「常に持つべき心構え」<br/>
+                            ② 「仕事の進め方」<br/>
+                            ③「どのような人に育ってほしいのか」<br/>
+                            を表す、日々飛び交う言葉・フレーズが存在します。<br/>
+                            <br/><br/>
+                            長年にわたり人材輩出に強みを持ち、確固たる「企業イズム」を有する<br/>
+                            マッキンゼー・アンド・カンパニーとリクルート社を例に紹介します。<br/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mb-4">
+                <div class="row align-items-center">
+                    <div class="col-md-1 col-sm-2 mx-auto" style="border: 1px solid lightgray;">
 
                     </div>
                 </div>
             </div>
-        </section><!-- /About Section -->
+        </section>
+        <!-- /企業イズムの体系 -->
 
-        <section id="contact" class="contact section">
-
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>問い合わせ</h2>
-                <p style="font-size: 1.2rem;">
-                    ISM Projectにご興味のある経営者様へ、<br>
-                    まずは30分の無料セッションにて<br>
-                    本取組みの内容や導入事例について詳しく紹介いたします。
-                </p>
-            </div><!-- End Section Title -->
-
-            <div class="container" style="text-align: center; margin-top: 40px;">
-                <a href="#" class="read-more" style="background-color: #0e2841;"><i
-                        class="bi bi-caret-right-fill"></i><span>&nbsp;問い合わせフォームへ</span></a>
+        <!-- イズム -->
+        <section id="venture" class="p-0">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-sm-12 py-3" style="background-color: #0e2841;">
+                        <h5 class="text-white text-center">イズム</h5>
+                    </div>
+                </div>
             </div>
 
-        </section><!-- /Contact Section -->
+            <div class="container py-4">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mx-auto py-4">
+                        <p>
+                            多くの企業では、社是やMissionなどを制定しています。<br/>
+                            しかし、それらが実際に日々のコミュニケーションで発せられていなければ「イズム」にまでなりません。<br/>
+                            重要なのは、実際に日々の会話や重要な意思決定においてその言葉が使われることです。<br/>
+                            ISM Projectでは、「実際に発せられる言葉」に徹底的にこだわり、追求します。<br/>
+                        </p>
+                    </div>
+                </div>
 
+                <div class="row align-items-center">
+                    <div class="col-lg-9 mx-auto" style="border: 3px solid #0e2841; border-radius: 4rem; padding: 4rem;">
+                        <p>
+                            リクルートでは、<span style="font-weight: 800;">「お前はどうしたいの？」</span>がこれに当たります。<br/>
+                            あらゆる局面で自身がやりたいこと＝willを問われ、そのwillが意思決定の基準となり、<br/>
+                            そして自分のwillを実現していった人物が組織のリーダーとなっていきます。<br/>
+                            <br/><br/>
+                            マッキンゼーでは、<span style="font-weight: 800;">「Client Impact」</span>と<span style="font-weight: 800;">「People」</span>です。<br/>
+                            社内の議論では、常にその仕事がクライアントにとってどれだけのインパクト<br/>
+                            （売上・利益など）をもたらすかを問われ、<br/>
+                            重要な意思決定でもインパクトの大きさが最重要の判断基準です。<br/>
+                            それと共に、組織のリーダーとして常に仲間の成長とパフォーマンスに<br/>
+                            寄与することが求められ、この両方を実現しなければ組織の中で認められない、<br/>
+                            という確固たるカルチャーが存在します。<br/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mb-4">
+                <div class="row align-items-center">
+                    <div class="col-md-1 col-sm-2 mx-auto" style="border: 1px solid lightgray;">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /イズム -->
+
+        <!-- ① 常に持つべき心構え -->
+        <section id="venture" class="p-0">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-sm-12 py-3" style="background-color: #0e2841;">
+                        <h5 class="text-white text-center">① 常に持つべき心構え</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container py-4">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mx-auto py-4">
+                        <p>
+                            イズムを体現する為に、いかなる時も前提として持つべき心構えを表す言葉です。<br/>
+                            採用の際にはこの素質を持ち合わせているか見極め、これが少しでも欠けると、<br/>
+                            その組織において活躍する資格を”剥奪”されるようなものです。<br/>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col-lg-9 mx-auto" style="border: 3px solid #0e2841; border-radius: 4rem; padding: 4rem;">
+                        <p>
+                            例えばリクルートの場合は、それは<span style="font-weight: 800;">「圧倒的当事者意識」</span>です。<br/>
+                            これがあってこそ、「お前はどうしたいの？」を実現することが出来る、<br/>
+                            逆にいうとこれが欠けると追求する資格もないのです。<br/>
+                            社内では、「当事者意識」という言葉は存在しません。<br/>
+                            使われる際は必ず「“圧倒的”当事者意識」と言われる、それほど徹底しています。<br/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mb-4">
+                <div class="row align-items-center">
+                    <div class="col-md-1 col-sm-2 mx-auto" style="border: 1px solid lightgray;">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /① 常に持つべき心構え -->
+
+        <!-- ② 仕事をどう進めるべきか -->
+        <section id="venture" class="p-0">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-sm-12 py-3" style="background-color: #0e2841;">
+                        <h5 class="text-white text-center">② 仕事をどう進めるべきか</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container py-4">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mx-auto py-4">
+                        <p>
+                            イズムを追求される為に、その組織独特の、共通する仕事の進め方を表す言葉です。<br/>
+                            ただイズムや心構えを語るだけでは人は動き出せません。<br/>
+                            そのHowを示すことで、社員は迷いなく動き出し、その一貫した仕事の進め方が<br/>
+                            組織の圧倒的な強みとなるのです。<br/>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col-lg-9 mx-auto" style="border: 3px solid #0e2841; border-radius: 4rem; padding: 4rem;">
+                        <p>
+                            マッキンゼーでは、Client Impactを追求する為の<span style="font-weight: 800;">「問題解決の7ステップ」</span>が<br/>
+                            定義されています。<br/>
+                            どのようなプロジェクトでもこのやり方が徹底され、<br/>
+                            新メンバーが途中参画しても即座に戦力となることを可能にします。<br/>
+                            同僚と議論する時は、<span style="font-weight: 800;">「ミーティングをしよう」</span>ではなく<br/>
+                            「プロソル＝Problem Solving(問題解決)」をしよう、<br/>
+                            という言葉が使われるほど浸透しています。<br/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mb-4">
+                <div class="row align-items-center">
+                    <div class="col-md-1 col-sm-2 mx-auto" style="border: 1px solid lightgray;">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /② 仕事をどう進めるべきか -->
+
+        <!-- ③ 社員にどう育ってほしいか -->
+        <section id="venture" class="p-0">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-sm-12 py-3" style="background-color: #0e2841;">
+                        <h5 class="text-white text-center">③ 社員にどう育ってほしいか</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container py-4">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mx-auto py-4">
+                        <p>
+                            イズムを体現・追求する人物として周りの手本となり、<br/>
+                            イズムの”伝道師”となる為に、<br/>
+                            その組織でどのような人になってほしいのかを表す言葉です。<br/>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col-lg-9 mx-auto" style="border: 3px solid #0e2841; border-radius: 4rem; padding: 4rem;">
+                        <p>
+                            例えばマッキンゼーでは、<span style="font-weight: 800;">「強みを作れ」「リーダーになれ」</span>です。<br/>
+                            「問題解決に強い」「チームに対して思いやりのある」などイズムを反映した<br/>
+                            ６つのリーダータイプが設定され、リーダー像を確立していくことが求められます。<br/>
+                            各タイプに使われているキーワードは日々飛び交うフレーズで構成されており、<br/>
+                            評価もこの６タイプの軸に沿って全て行われます。<br/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mb-4">
+                <div class="row align-items-center">
+                    <div class="mx-auto" style="border: 1px solid lightgray;">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container py-4">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mx-auto py-4">
+                        <p>
+                            最上位概念であるイズムと共に、<br/>
+                            常に持つべき心構え、仕事の進め方、どう育ってほしいのか、<br/>
+                            これら全てを表す言葉が存在することで組織は強くなります。<br/>
+                            <br/><br/>
+                            「ウチの会社でもそういうのあるよ」という方もいらっしゃるかもしれません。<br/>
+                            しかし、本当にそれらの言葉は日常的に飛び交っていますか？<br/>
+                            社内でメンバーの評価をする際に、それらの言葉が最重要視されていますか？<br/>
+                            <br/><br/>
+                            ISM Projectでは、イズムの言語化を徹底的に追求したうえ、<br/>
+                            その言葉が組織に浸透するまで非常に長い時間をかけて取り組むことを求めます。<br/>
+                            長い道のりを適切なサポートで情熱を持ったリーダーとご一緒するプログラムです。<br/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /③ 社員にどう育ってほしいか -->
+
+        <div class="container mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-12 py-2 mx-auto text-center" style="background-color: #0e2841;">
+                    <span class="text-white">▶︎ 次：ISM Projectのプログラム内容</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mb-4">
+            <div class="row align-items-center">
+                <div class="mx-auto" style="border: 1px solid lightgray;">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container mb-4">
+            <div class="row align-items-center">
+                <div class="mx-auto text-center">
+                    <span style="font-size: 2rem; font-weight: 800; border-bottom: 1px solid lightgray;">　お問い合わせ　</span>
+                    <P></P>
+                    <p>
+                        ISM Projectにご興味のある経営者様へ、<br/>
+                        まずは30分の無料セッションにて<br/>
+                        プログラム内容や導入事例についてより詳しく紹介いたします。<br/>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-12 py-2 mx-auto text-center" style="background-color: #0e2841;">
+                    <span class="text-white">▶︎ 問い合わせフォームへ</span>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer id="footer" class="footer position-relative light-background">
         <div class="container-fluid container-xl position-relative d-flex justify-content-center navmenu">
             <ul>
                 <!-- <li><a href="index.html#hero" class="active">TOP</a></li> -->
-                <li><a href="index.html#about">Wty ISM</a></li>
+                <li><a href="index.html#about">Why ISM</a></li>
                 <li><a href="index.html#features">イズムとは？</a></li>
                 <li><a href="index.html#pricing">プログラム内容</a></li>
                 <li><a href="index.html#pricing">その他サービス</a></li>
@@ -252,7 +443,6 @@
                 Designed by <a href="#">Nonak Keita</a>
             </div>
         </div>
-
     </footer>
 
     <!-- Scroll Top -->
